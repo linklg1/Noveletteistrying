@@ -73,14 +73,20 @@ align-self: center;
   width: 50%;
 }
 
-#logline, #synopsis, h2, #linktext, #media, #funders, #giselle {
+#logline, #synopsis, h2  {
   display:block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
   text-align: center;
 }
-
+#linktext, #media, #funders, #giselle {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}
 .teammember  {
   display:block;
   margin-left: auto;
