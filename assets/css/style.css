@@ -87,6 +87,7 @@ align-self: center;
   width: 50%;
   text-align: center;
 }
+
 .teammember  {
   display:block;
   margin-left: auto;
@@ -100,8 +101,8 @@ align-self: center;
   text-decoration-color: #9198e5;
   margin-left: auto;
   margin-right: auto;
-  text-align:center;
   width: 50%;
+  text-align: center;
 }  
 
   @media screen and (max-width: 996px) {
