@@ -114,7 +114,4 @@ Giselle Miller - orangerosefilms@gmail.com
 ```
 ## Mock-up
 
-The following image shows the web application's appearance and functionality:# Noveletteistrying
-# Noveletteistrying
-# Noveletteistrying
-# Noveletteistrying
+The following image shows the web application's appearance and functionality:
