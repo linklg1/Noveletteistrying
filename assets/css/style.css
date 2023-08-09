@@ -195,7 +195,9 @@ h2{
   and (min-device-width: 414px) 
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
-
+body {
+  background-size: 50%, 50%;
+}
 }
 
 
