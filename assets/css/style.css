@@ -6,10 +6,15 @@
   }
   
   body {
+    display:grid;
     font-family: Arial;
     margin: 0;
-    background-color: #e2af41 ;
+    background-image: url(https://i.ibb.co/10g3r64/solid-color-image.png), url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Gay_flag_8.svg/2560px-Gay_flag_8.svg.png);
+    background-position: center, left;
+    background-size: 1100px, 200px;
+    background-repeat: repeat-y, repeat;
   }
+  
   
   main {
     display: flex;
@@ -30,6 +35,17 @@
   }
   .main-header p, .main-header h1 {
 align-self: center;
+
+  }
+  h1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+        padding: 10px;
+        font-size: 20px;
+        
+        
   }
   .card {
     flex: 1 0 0;
@@ -52,7 +68,24 @@ align-self: center;
     width: 100%;
     min-width: 400px;
   }
+  a {
+color: hotpink;
+  }
+  a:visited {
+    color: hotpink;
+  }
 #navigation {
+  text-align: center;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: black;
+  background-color: rgb(240, 224, 166);
+  
+  
   position:fixed; 
   display: list-item;
   list-style: none;
@@ -73,14 +106,45 @@ align-self: center;
   width: 50%;
 }
 
-#logline, #synopsis, h2  {
+#logline, #synopsis  {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  
+}
+h2{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+  text-align: center;
+  display: table;
+    margin: 0px auto 0px auto;
+        padding: 10px;
+        font-size: 20px;
+}
+#linktext, #funders, #giselle {
   display:block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
   text-align: center;
 }
-#linktext, #media, #funders, #giselle {
+#media {
+  color:black;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}
+#WOQ {
+  color: black;
+}
+#funderslist {
+  list-style: none;
   display:block;
   margin-left: auto;
   margin-right: auto;
@@ -88,15 +152,30 @@ align-self: center;
   text-align: center;
 }
 
+#IPF {
+  display:inline-block;
+  margin-left: 5%;
+  max-height: 80px;
+  max-width: 80px;
+}
+#IG {
+  display:block;
+  
+  width: 50%;
+  max-height: 80px;
+  max-width: 80px;
+}
 .teammember  {
   display:block;
   margin-left: auto;
   margin-right: auto;
   text-align:left;
   width: 50%;
+  
 }
 
 #gogo {
+  color: black;
   display: block;
   text-decoration-color: #9198e5;
   margin-left: auto;
@@ -105,6 +184,12 @@ align-self: center;
   text-align: center;
 }  
 
+#giselleHS {
+  display: block;
+  margin-left: 50%;
+  max-height: 300px;
+  max-width: 300px;
+}
   @media screen and (max-width: 996px) {
     header {
       flex-direction: column;
