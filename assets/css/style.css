@@ -7,7 +7,7 @@
   
   body {
     display:grid;
-    font-family: Helvetica, sans-serif;
+    font-family:Tahoma;
     margin: 0;
     background-image: url(https://i.ibb.co/10g3r64/solid-color-image.png), url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Gay_flag_8.svg/2560px-Gay_flag_8.svg.png);
     background-position: center, left;
@@ -44,8 +44,8 @@ h2 {
     font-size: 20px;
   }
 
-h3 {
-  margin-left: 6%;
+h3  {
+  margin-left: 8%;
   margin-right: auto;
   width: 50%;
   text-align: center;
@@ -76,8 +76,21 @@ h3 {
   margin-right: auto;
   width: 50%;
 } 
-
-#logline, #synopsis, #linktext, #funders, #giselle, #media  {
+#synopsis {
+  background-color: hotpink;
+  background-size: contain;
+  padding: 1%;
+  border-style: solid;
+  border-color: black;
+  display:block;
+  line-height: 1.5;
+  word-wrap:break-word; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}
+#logline, #linktext, #media, #funders, #giselle  {
   display:block;
   margin-left: auto;
   margin-right: auto;
@@ -87,17 +100,27 @@ h3 {
 
 .teammember  {
     display:block;
+    padding-top: 35px;
+    float:inline-end;
     margin-left: auto;
     margin-right: auto;
+    word-wrap: break-word;
+    padding-left: 30px;
     text-align:left;
-    width: 50%;
+    width: 40%;
     
   }
+
  #giselleHS {
-    display: block;
-    margin-left: 50%;
+  display: flex;
+  margin: 30px;
+  float:left;
+  justify-self: center;
     max-height: 300px;
     max-width: 300px;
+    border-radius: 15%;
+    border-style: solid;
+    border-color: black;
   }
 
 #gogo {
@@ -108,7 +131,7 @@ h3 {
     width: 30%;
     text-align: center;
     font-size: 22pt;
-    font-family: Helvetica, sans-serif;
+    font-family: Tahoma;
     font-style: bold;
     border-style: solid;
     border-color: black;
