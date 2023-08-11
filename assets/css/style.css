@@ -11,7 +11,7 @@
     margin: 0;
     background-image: url(https://i.ibb.co/10g3r64/solid-color-image.png), url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Gay_flag_8.svg/2560px-Gay_flag_8.svg.png);
     background-position: center, left;
-    background-size: 1100px, 200px;
+    background-size: 1100px, 500px;
     background-repeat: repeat-y, repeat;
   }
   main {
@@ -90,7 +90,7 @@ h3  {
   width: 50%;
   text-align: center;
 }
-#logline, #linktext, #media, #funders, #giselle  {
+#logline, #linktext, #media, #funders {
   display:block;
   margin-left: auto;
   margin-right: auto;
@@ -139,10 +139,7 @@ h3  {
     background-color: rgb(241, 158, 49);
     padding:2%;
   } 
-/*#WOQ {
-  color: black;
-}
-*/
+
 #funderslist {
   list-style: none;
   line-height: 1.8;
@@ -152,15 +149,28 @@ h3  {
   width: 50%;
   text-align: center;
 }
-#IPF, #IG {
+.logof {
   display:block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  justify-items: center;
-  max-height: 80px;
-  max-width: 80px;
+  width: 80px;
+  height: 80px;
+  margin-left:auto;
+  margin-right:auto;
+ 
 }
+#giselle {
+  display: flex;
+  justify-content: center;
+}
+.logosm {
+  flex-direction: inline;
+  padding: 5px;
+  width: 80px;
+  height: 80px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
 
 
 
