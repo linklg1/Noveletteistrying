@@ -97,48 +97,31 @@ h3  {
   width: 50%;
   text-align: center;
   }
-#team {
+#team, #cast {
   justify-content: center;
 }
 .teammember  {
-    display:block;
-    padding-top: 35px;
-    float:inline-end;
-    margin-left: auto;
-    margin-right: auto;
+    display:inline-block;
+    padding-top: 30px;
+    margin-left: 30%;
+    margin-right: 50%;
     word-wrap: break-word;
-    padding-left: 30px;
     text-align:left;
     width: 40%;
     
   }
 
  .headshot {
-  display: block;
-  margin: 30px;
+  display: inline-block;
   float:left;
-  justify-self: center;
+  margin: 25px;
     max-height: 300px;
     max-width: 300px;
     border-radius: 15%;
     border-style: solid;
     border-color: black;
   }
-#stephtext{
-  justify-content: center;
-  text-align: left;
-  padding-left: 30px;
-  word-wrap: break-word;
-  margin-left: 44%;
-  display:block;
-  width:33%;
-}
-#stephpic {
-  
-  display: block;
-  margin-left:-12%;
-  margin-right:auto;
-}
+
 
 #gogo {
     color: black;
