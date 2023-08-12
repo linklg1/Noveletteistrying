@@ -9,10 +9,10 @@
     display:grid;
     font-family:Tahoma;
     margin: 0;
-    background-image: url(https://i.ibb.co/10g3r64/solid-color-image.png), url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Gay_flag_8.svg/2560px-Gay_flag_8.svg.png);
-    background-position: center, left;
-    background-size: 1100px, 500px;
-    background-repeat: repeat-y, repeat;
+    background-image: url(https://i.ibb.co/RTgn3Hh/anotherbeige.jpg), url(https://i.ibb.co/0t1mPy5/samedit3.jpg);
+    background-position:center, left;
+    background-size:1100px, 500px;
+    background-repeat:repeat-y, repeat;
   }
   main {
     display: flex;
@@ -21,7 +21,7 @@
   }
 
 a, a:visited {
-color: rgb(255,105,182);
+color: #2f4e87;
   }
 
 h1 {
@@ -65,7 +65,9 @@ h3  {
   border-radius: 50%;
   border-style: solid;
   border-color: black;
-  background-color: rgb(240, 224, 166);
+  background-color: #d1ba9a;
+  /*background-color: rgb(240, 224, 166);
+  */
   position:fixed; 
   display: list-item;
   list-style: none;
@@ -147,10 +149,13 @@ h3  {
     border-style: solid;
     border-color: black;
     border-radius: 50%;
-    background-color: rgb(255,143,0);
+    background-color: #5278a9;
     padding:2%;
   } 
-
+#flag{
+  max-width: 300px;
+  max-height: 300px;
+}
 #funderslist {
   list-style: none;
   line-height: 1.8;
