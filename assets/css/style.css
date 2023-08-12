@@ -21,7 +21,7 @@
   }
 
 a, a:visited {
-color: hotpink;
+color: rgb(255,105,182);
   }
 
 h1 {
@@ -77,7 +77,7 @@ h3  {
   width: 50%;
 } 
 #synopsis {
-  background-color: hotpink;
+  background-color: rgb(255,105,182);
   background-size: contain;
   padding: 1%;
   border-style: solid;
@@ -136,7 +136,7 @@ h3  {
     border-style: solid;
     border-color: black;
     border-radius: 50%;
-    background-color: rgb(241, 158, 49);
+    background-color: rgb(255,143,0);
     padding:2%;
   } 
 
@@ -163,7 +163,7 @@ h3  {
 }
 .logosm {
   flex-direction: inline;
-  padding: 5px;
+  padding: 10px;
   width: 80px;
   height: 80px;
   margin-left:auto;
