@@ -8,8 +8,7 @@ AS A Black film maker, Giselle WANTS this website to be her main hub for her ser
 ```
 
 must include this information:
-https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Gay_flag_8.svg/2560px-Gay_flag_8.svg.png
-url(https://i.ibb.co/10g3r64/solid-color-image.png)
+
 NIT Website
 
 www.noveletteistrying.com
@@ -116,3 +115,4 @@ Giselle Miller - orangerosefilms@gmail.com
 ## Mock-up
 
 The following image shows the web application's appearance and functionality:
+
