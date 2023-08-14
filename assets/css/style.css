@@ -196,7 +196,7 @@ h3  {
   }
 #poster {
   width: 300px;
-  height:fit-content;
+  height:100%;
 
 }
   #navigation {
