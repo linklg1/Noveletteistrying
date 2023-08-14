@@ -183,6 +183,26 @@ h3  {
   margin-left:auto;
   margin-right:auto;
 }
+@media screen and (max-width: 1180px) {
+
+  body {
+    display:grid;
+    font-family:Tahoma;
+    margin: 0;
+    background-image: url(https://i.ibb.co/RTgn3Hh/anotherbeige.jpg), url(https://i.ibb.co/0t1mPy5/samedit3.jpg);
+    background-position:center, left;
+    background-size: 700px, 500px;
+    background-repeat:repeat-y, repeat;
+  }
+  
+h3 {
+margin-left:300px;
+margin-bottom: 20px;
+}
+
+}
+
+
 
 @media screen and (max-width: 844px) {
 
