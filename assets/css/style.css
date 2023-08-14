@@ -195,7 +195,8 @@ h3  {
     background-repeat:repeat-y, repeat;
   }
 #poster {
-  width: 110%;
+  width: 300px;
+  height:fit-content;
 
 }
   #navigation {
