@@ -35,7 +35,7 @@ youtube: https://www.youtube.com/@producedbygiselle/videos
 ```
 ## Mock-up
 
-The following image shows the web application's appearance and functionality:
+The following images shows the web application's appearance and functionality:
 ![alt text](assets/images/NITScreenshot1.png)
 ![alt text](assets/images/NITScreenshot2.png)
 ![alt text](assets/images/NITScreenshot3.png)
