@@ -184,21 +184,21 @@ h3  {
   margin-right:auto;
 }
 
-@media screen and (max-width: 390px) and (orientation: portrait) {
-   body {
+@media screen and (max-width: 844px) {
+
+  body {
     display:grid;
     font-family:Tahoma;
     margin: 0;
     background-image: url(https://i.ibb.co/RTgn3Hh/anotherbeige.jpg), url(https://i.ibb.co/0t1mPy5/samedit3.jpg);
     background-position:center, left;
-    background-size: 310px, 500px;
+    background-size: 500px, 500px;
     background-repeat:repeat-y, repeat;
   }
 #poster {
   width: 80%;
   height:100%;
-
-}
+  }
   #navigation {
     text-align: left;
     font-size: medium;
@@ -216,7 +216,8 @@ h3  {
     list-style: none;
     margin-left: 0px;
     margin-top: 45px;
-  }
+    }
+ 
   h3  {
     margin-left: 24%;
     margin-right: auto;
@@ -224,7 +225,103 @@ h3  {
     width: 50%;
     text-align: center;
     padding-bottom: 50px;
+    }
+
+.sizzle{
+  width:500px;
+  height:300px;
+}
+
+.headshot {
+  display: inline-block;
+  float: left;
+  margin: 25px;
+    max-height: 300px;
+    max-width: 300px;
+    border-radius: 15%;
+    border-style: solid;
+    border-color: black;
+}
+
+.teammember {
+  display:inline-block;
+  padding-top: 30px;
+  margin-left: 30%;
+  margin-right: 50%;
+  word-wrap: break-word;
+  text-align:left;
+  width: 40%;
+  
+  
+}
+
+#flag {
+  max-width: 175px;
+  max-height: fit-content;
+}
+
+#gogo {
+  color: black;
+  display: block;
+  margin-left: -75px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 180%;
+  text-align: center;
+  font-size: 20pt;
+  font-family: Tahoma;
+  font-style: bold;
+  border-style: solid;
+  border-color: black;
+  border-radius: 50%;
+  background-color: #5278a9;
+  padding:5%;
+} 
+
+}
+
+@media screen and (max-width: 390px) and (orientation: portrait) {
+   
+body {
+    display:grid;
+    font-family:Tahoma;
+    margin: 0;
+    background-image: url(https://i.ibb.co/RTgn3Hh/anotherbeige.jpg), url(https://i.ibb.co/0t1mPy5/samedit3.jpg);
+    background-position:center, left;
+    background-size: 310px, 500px;
+    background-repeat:repeat-y, repeat;
   }
+#poster {
+  width: 80%;
+  height:100%;
+  }
+  #navigation {
+    text-align: left;
+    font-size: medium;
+    line-height: 1.2;
+    padding-top: 15px;
+    padding-right: 7.5px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    border-radius: 20%;
+    border-style: solid;
+    border-color: black;
+    background-color: #d1ba9a;
+    position:fixed; 
+    display: list-item;
+    list-style: none;
+    margin-left: 0px;
+    margin-top: 45px;
+    }
+ 
+  h3  {
+    margin-left: 24%;
+    margin-right: auto;
+    font-size: 20pt;
+    width: 50%;
+    text-align: center;
+    padding-bottom: 50px;
+    }
 
 .sizzle{
   width:275px;
@@ -261,7 +358,4 @@ h3  {
   background-color: #5278a9;
   padding:5%;
 } 
-
-
-
 }
