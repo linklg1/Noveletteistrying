@@ -14,17 +14,18 @@
     background-size:1100px, 500px;
     background-repeat:repeat-y, repeat;
   }
+  
   main {
     display: flex;
     flex-wrap: wrap;
     margin-top: 2%;
   }
 
-a, a:visited {
-color: #2f4e87;
+  a, a:visited {
+    color: #2f4e87;
   }
 
-h1 {
+  h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -32,9 +33,9 @@ h1 {
     width: 50%;
     padding: 10px;
     font-size: 20px;
-      }
+  }
   
-h2 {
+  h2 {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -46,13 +47,13 @@ h2 {
     font-size: 20px;
   }
 
-h3  {
+  h3 {
   margin-left: 8%;
   margin-right: auto;
   font-size: 22pt;
   width: 50%;
   text-align: center;
-}
+  }
 
 #navigation {
   text-align: center;
@@ -71,14 +72,15 @@ h3  {
   list-style: none;
   margin-left: 8%;
   margin-top: 10%;
-}
+  }
   
 #poster, .sizzle {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-} 
+  }
+
 #synopsis  {
   padding: 1%;
   border-style: solid;
@@ -90,18 +92,21 @@ h3  {
   margin-right: auto;
   width: 50%;
   text-align: center;
-}
-#logline, #linktext, #media, #funders {
+  }
+
+  #logline, #linktext, #media, #funders {
   display:block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
   text-align: center;
   }
-#team, #cast {
+
+  #team, #cast {
   justify-content: center;
-}
-.teammember  {
+  }
+  
+  .teammember  {
     display:inline-block;
     padding-top: 30px;
     margin-left: 30%;
@@ -109,19 +114,19 @@ h3  {
     word-wrap: break-word;
     text-align:left;
     width: 40%;
-    
-  }
+    }
 
- .headshot {
+  .headshot {
   display: inline-block;
   float: left;
   margin: 25px;
-    max-height: 300px;
-    max-width: 300px;
-    border-radius: 15%;
-    border-style: solid;
-    border-color: black;
+  max-height: 300px;
+  max-width: 300px;
+  border-radius: 15%;
+  border-style: solid;
+  border-color: black;
   }
+
   #campaign {
     display:block;
     text-align: center;
@@ -131,9 +136,9 @@ h3  {
     border-color: black;
     margin-left: auto;
     margin-right:auto;
-  }
+   }
 
-#gogo {
+  #gogo {
     color: black;
     display: block;
     margin-left: auto;
@@ -149,12 +154,14 @@ h3  {
     border-radius: 50%;
     background-color: #5278a9;
     padding:2%;
-  } 
-#flag{
+  }
+
+  #flag{
   max-width: 300px;
   max-height: 300px;
-}
-#funderslist {
+  }
+
+  #funderslist {
   list-style: none;
   line-height: 1.8;
   display:block;
@@ -162,27 +169,32 @@ h3  {
   margin-right: auto;
   width: 50%;
   text-align: center;
-}
-.logof {
+  }
+
+  .logof {
   display:block;
   width: 80px;
   height: 80px;
   margin-left:auto;
   margin-right:auto;
- 
-}
-#giselle {
+  }
+
+  #giselle {
   display: flex;
   justify-content: center;
-}
-.logosm {
+  }
+
+  .logosm {
   flex-direction: inline;
   padding: 15px;
   width: 80px;
   height: 78px;
   margin-left:auto;
   margin-right:auto;
-}
+  }
+
+  /* format for iPad*/
+
 @media screen and (max-width: 1180px) {
 
   body {
@@ -195,14 +207,13 @@ h3  {
     background-repeat:repeat-y, repeat;
   }
   
-h3 {
-margin-left:300px;
-margin-bottom: 20px;
+  h3 {
+  margin-left:300px;
+  margin-bottom: 20px;
+  }
 }
 
-}
-
-
+/* format for iPhone landscape */
 
 @media screen and (max-width: 844px) {
 
@@ -215,11 +226,13 @@ margin-bottom: 20px;
     background-size: 500px, 500px;
     background-repeat:repeat-y, repeat;
   }
+
 #poster {
   width: 80%;
   height:100%;
   }
-  #navigation {
+
+#navigation {
     text-align: left;
     font-size: medium;
     line-height: 1.2;
@@ -238,7 +251,7 @@ margin-bottom: 20px;
     margin-top: 45px;
     }
  
-  h3  {
+h3  {
     margin-left: 24%;
     margin-right: auto;
     font-size: 20pt;
@@ -256,11 +269,11 @@ margin-bottom: 20px;
   display: inline-block;
   float: left;
   margin: 25px;
-    max-height: 300px;
-    max-width: 300px;
-    border-radius: 15%;
-    border-style: solid;
-    border-color: black;
+  max-height: 300px;
+  max-width: 300px;
+  border-radius: 15%;
+  border-style: solid;
+  border-color: black;
 }
 
 .teammember {
@@ -271,8 +284,6 @@ margin-bottom: 20px;
   word-wrap: break-word;
   text-align:left;
   width: 40%;
-  
-  
 }
 
 #flag {
@@ -297,8 +308,9 @@ margin-bottom: 20px;
   background-color: #5278a9;
   padding:5%;
 } 
-
 }
+
+/* format for iphone orientation portrait*/
 
 @media screen and (max-width: 390px) and (orientation: portrait) {
    
@@ -311,11 +323,13 @@ body {
     background-size: 310px, 500px;
     background-repeat:repeat-y, repeat;
   }
+
 #poster {
   width: 80%;
   height:100%;
   }
-  #navigation {
+
+#navigation {
     text-align: left;
     font-size: medium;
     line-height: 1.2;
@@ -334,7 +348,7 @@ body {
     margin-top: 45px;
     }
  
-  h3  {
+h3  {
     margin-left: 24%;
     margin-right: auto;
     font-size: 20pt;
@@ -353,7 +367,6 @@ body {
   margin: -24px;
   margin-bottom: 30px;
   margin-top: 10px;
-  
 }
 
 #flag {
@@ -377,5 +390,6 @@ body {
   border-radius: 50%;
   background-color: #5278a9;
   padding:5%;
-} 
+}
+ 
 }
