@@ -90,7 +90,7 @@
   word-wrap:break-word; 
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 45%;
   text-align: center;
   }
 
@@ -131,7 +131,7 @@
     display:block;
     text-align: center;
     border-style: solid;
-    width: 50%;
+    width: 45%;
     line-height: 1.8;
     border-color: black;
     margin-left: auto;
